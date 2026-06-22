@@ -1,0 +1,16 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*~
+.idea/
+.vscode/
+
+# Never commit credentials or full config backups (they contain secrets/hashes)
+*.secret
+secrets.*
+config-*.xml
+pfsense-config-backup*.xml
+
+# Large raw captures — commit a trimmed/annotated version instead if needed
+*.pcap
+*.pcapng
